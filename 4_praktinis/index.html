@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kristupo interaktyvūs žemėlapiai</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Kristupo interaktyvūs žemėlapiai</h1>
+        <nav>
+    <a href="#hero">Pradžia</a>
+    <a href="#info">Žemėlapiai</a>
+    <a href="contacts.html">Kontaktai</a>
+</nav>
+    </header>
+    <section id="hero">
+    <div class="hero-content">
+        <h2>Interaktyvūs erdvinės analizės sprendimai</h2>
+        <p>Gyventojų analizė, kultūros paveldas ir investiciniai objektai vienoje vietoje.</p>
+        <a href="#info" class="btn">Peržiūrėti žemėlapius</a>
+    </div>
+</section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Apie projektą</h2>
+            <p>
+                Šioje svetainėje pateikiami trys interaktyvūs žemėlapiai:
+                Kepler.gl įrankiu realizuota gyventojų analizė savivaldybėse, kultūros paveldo objektų žemėlapis bei investicinių objektų valdymo sistema.
+            </p>
+        </div>
+    </section>
+
+    <section id="info">
+    
+    <a href="#map1" class="card">
+        <div class="overlay">
+            <h3>Gyventojų analizė</h3>
+            <p>Demografiniai duomenys ir analizė</p>
+        </div>
+    </a>
+
+    <a href="#map2" class="card">
+        <div class="overlay">
+            <h3>Kultūros paveldas</h3>
+            <p>Objektų lokalizacija ir analizė</p>
+        </div>
+    </a>
+
+    <a href="#map3" class="card">
+        <div class="overlay">
+            <h3>Investiciniai objektai</h3>
+            <p>Įvedimo ir redagavimo sistema</p>
+        </div>
+    </a>
+
+</section>
+
+    <!-- MAPS -->
+    <section id="maps">
+        <h2>Žemėlapių galerija</h2>
+
+        <div class="map" id="map1">
+            <h3>Demografinė gyventojų analizė skirtingais pjūviais</h3>
+            <iframe src="https://krisas1.github.io/1_praktinis/map_2.html" frameborder="0" allowfullscreen></iframe>
+        <div class="map-description">
+    <p>
+        Šiame žemėlapyje pateikiama detali gyventojų analizė pagal savivaldybes,
+        naudojant kepler.gl įrankį. 
+        <p></p>Galima analizuoti duomenis skirtingais pjūviais.
+    </p>
+    </div>
+</div>
+
+        <div class="map" id="map2">
+            <h3>Kultūros paveldo objektai</h3>
+            <iframe src="https://www.geoportal.lt/map/#portalAction=openSavedMap&savedMapId=91380" frameborder="0" allowfullscreen></iframe>
+        <div class="map-description">
+    <p>
+        Šiame žemėlapyje pateikiama kultūros paveldo objektų lokalizacija ir analizė, naudojant ArcGIS Online platformą.
+       <p></p>  Galima peržiūrėti objektų pasiskirstymą, jų tipus ir kitus atributus, papildomai pridėtas saugomų teritorijų sluoksnis, leidžiantis analizuoti kultūros paveldo objektų ir saugomų teritorijų sąveiką.
+    </p>
+    </div>  
+</div>
+
+        <div class="map" id="map3">
+            <h3>Investiciniai objektai</h3>
+            <iframe src="https://vu-lt.maps.arcgis.com/apps/instant/sidebar/index.html?appid=5975c3aabcf04f3b871e6fe739054d62" frameborder="0" allowfullscreen></iframe>
+        <div class="map-description">
+    <p>
+        Šiame žemėlapyje pateikiama investicinių objektų informacija ir valdymo sistema, naudojant ArcGIS Online platformą. 
+        <p></p>Galima peržiūrėti, įvesti objektų informaciją, jų vietoves ir kitus atributus.
+    </p>
+    </div>  
+</div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Kristupas | Sukurta akademiniams tikslams</p>
+    </footer>
+
+</body>
+</html>
